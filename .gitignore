@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.inspect/
+logs/*.log
+.DS_Store
+.context/
+results/
+runs/
+
+# Archives from build_zip.py
+dist/
+
+# Local caches and credentials
+.pytest_cache/
+.ruff_cache/
+*.pem
+*.key
+*.p12
+*.pfx
